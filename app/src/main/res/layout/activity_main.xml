@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.zzw.activity.MainActivity">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar" />
+
+    <Button
+        android:text="Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/normal_bt"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_click"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="Scale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scale_bt"
+        android:background="@drawable/button_click"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:text="Rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rotate_bt"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/button_click" />
+
+    <Button
+        android:text="3D Gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/td_gallery_bt"
+        android:background="@drawable/button_click"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp" />
+
+    <Button
+        android:text="Fragment Pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/frag_pager_bt"
+        android:background="@drawable/button_click"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>
